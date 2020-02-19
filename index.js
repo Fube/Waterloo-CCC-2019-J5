@@ -14,7 +14,6 @@ const rl = readline.createInterface({input : process.stdin, output : process.std
     }
 
     const [depth, start, end] = (await question("Depth, start and end?")).split` `;
-    console.log
 
     rl.close();
 
